@@ -1,0 +1,38 @@
+{
+  "variant": "teacher",
+  "args": {
+    "variant": "teacher",
+    "attn_layers": null,
+    "stage1": 300,
+    "stage2": 150,
+    "seq": 512,
+    "bs": 2,
+    "lr": 0.001,
+    "load": null
+  },
+  "ppl": 8.501570393793989,
+  "passkey": {
+    "177_tokens": 1.0,
+    "537_tokens": 1.0,
+    "1497_tokens": 1.0
+  },
+  "samples": [
+    {
+      "prompt": "The capital of France is",
+      "completion": ".\nThe 10 Best Places to Visit in the United States\nThe United States is a country with a rich history and culture, and it's home to some of the world'"
+    },
+    {
+      "prompt": "In machine learning, overfitting happens when",
+      "completion": "you are.\nThe 10 Best Books of 2019 (So Far)\nThe 10 Best Books of 2019 (So Far) The 1"
+    },
+    {
+      "prompt": "def fibonacci(n):\n    \"\"\"Return the n-th Fibonacci number.\"\"\"\n",
+      "completion": "   return F(n) + F(n - 1)\n\ndef F(n):\n    \"\"\"Return the n-th Fibonacci number.\"\"\"\n    if n"
+    },
+    {
+      "prompt": "Software testing is important because",
+      "completion": "getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being getting a lot being"
+    }
+  ],
+  "log": []
+}

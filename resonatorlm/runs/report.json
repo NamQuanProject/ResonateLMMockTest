@@ -1,0 +1,95 @@
+{
+  "variant": "report",
+  "args": {
+    "variant": "report",
+    "attn_layers": null,
+    "stage1": 300,
+    "stage2": 150,
+    "seq": 512,
+    "bs": 2,
+    "lr": 0.001,
+    "load": null
+  },
+  "converted_layers": 22,
+  "attn_layers": [],
+  "trainable_params": 109916224,
+  "ppl_before_training": 236591.06604496445,
+  "recurrence_check": {
+    "same_greedy_tokens": false,
+    "last_logit_rel_err": 0.004975124262273312
+  },
+  "decode_memory_1M_tokens_GiB": 0.0008392333984375,
+  "decode_memory_teacher_1M_tokens_GiB": 20.9808349609375,
+  "ppl": 63.965488185646635,
+  "passkey": {
+    "177_tokens": 0.0,
+    "537_tokens": 0.0,
+    "1497_tokens": 0.0
+  },
+  "samples": [
+    {
+      "prompt": "The capital of France is",
+      "completion": "a \" 1000, and the first of the 2010s.\nion of the 19th century.\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      "prompt": "In machine learning, overfitting happens when",
+      "completion": "the first time, the 1980s, the first of the 2011 season , the first of the 19th century. 1960s."
+    },
+    {
+      "prompt": "def fibonacci(n):\n    \"\"\"Return the n-th Fibonacci number.\"\"\"\n",
+      "completion": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+      "prompt": "Software testing is important because",
+      "completion": "of the 1980s, the first time the first of the 2010s.\nion of the 19th century.\n\n\n\n\n\n\n"
+    }
+  ],
+  "log": [
+    "step    0 [attn-transfer] loss 21829.6230       3s",
+    "step   10 [attn-transfer] loss 8163.9204      37s",
+    "step   20 [attn-transfer] loss 7494.8599      65s",
+    "step   30 [attn-transfer] loss 8211.0273      92s",
+    "step   40 [attn-transfer] loss 6932.6021     120s",
+    "step   50 [attn-transfer] loss 432.8175     150s",
+    "step   60 [attn-transfer] loss 53.7998     178s",
+    "step   70 [attn-transfer] loss 22.7793     215s",
+    "step   80 [attn-transfer] loss 16.5701     252s",
+    "step   90 [attn-transfer] loss 19.0608     281s",
+    "step  100 [attn-transfer] loss 5.3788     311s",
+    "step  110 [attn-transfer] loss 3.3559     339s",
+    "step  120 [attn-transfer] loss 6.6778     367s",
+    "step  130 [attn-transfer] loss 14.5020     396s",
+    "step  140 [attn-transfer] loss 17.2706     424s",
+    "step  150 [attn-transfer] loss 1.5330     453s",
+    "step  160 [attn-transfer] loss 2.9914     482s",
+    "step  170 [attn-transfer] loss 3.1015     511s",
+    "step  180 [attn-transfer] loss 1.4844     540s",
+    "step  190 [attn-transfer] loss 1.4194     569s",
+    "step  200 [attn-transfer] loss 2.4349     599s",
+    "step  210 [attn-transfer] loss 0.8523     627s",
+    "step  220 [attn-transfer] loss 1.3519     655s",
+    "step  230 [attn-transfer] loss 0.9904     684s",
+    "step  240 [attn-transfer] loss 1.0367     713s",
+    "step  250 [attn-transfer] loss 0.7303     745s",
+    "step  260 [attn-transfer] loss 0.8084     773s",
+    "step  270 [attn-transfer] loss 0.8367     802s",
+    "step  280 [attn-transfer] loss 0.7415     830s",
+    "step  290 [attn-transfer] loss 0.6855     859s",
+    "step  300 [kd] loss 2.9158     893s",
+    "step  310 [kd] loss 2.5574     958s",
+    "step  320 [kd] loss 2.6733    1017s",
+    "step  330 [kd] loss 2.4199    1107s",
+    "step  340 [kd] loss 2.7748    1180s",
+    "step  350 [kd] loss 2.5558    1241s",
+    "step  360 [kd] loss 2.7249    1328s",
+    "step  370 [kd] loss 2.4429    1388s",
+    "step  380 [kd] loss 2.5129    1552s",
+    "step  390 [kd] loss 2.4329    1668s",
+    "step  400 [kd] loss 2.1437    1734s",
+    "step  410 [kd] loss 2.0265    1800s",
+    "step  420 [kd] loss 2.1128    1903s",
+    "step  430 [kd] loss 2.4190    1958s",
+    "step  440 [kd] loss 2.2060    2030s",
+    "step  449 [kd] loss 2.1231    2097s"
+  ]
+}
